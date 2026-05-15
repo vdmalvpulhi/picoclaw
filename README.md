@@ -63,7 +63,9 @@ All configuration is done via environment variables. See [`.env.example`](.env.e
 | `LOG_LEVEL` | Log verbosity (`debug`, `info`, `warn`, `error`) | `info` |
 | `HARDWARE_PORT` | Serial port for hardware communication | `/dev/ttyUSB0` |
 | `SIMULATOR_MODE` | Run without physical hardware | `false` |
-| `SESSION_TIMEOUT` | Game session timeout in seconds | `120` |
+| `SESSION_TIMEOUT` | Game session timeout in seconds | `90` |
+
+> **Personal note:** I changed `SESSION_TIMEOUT` default from `120` to `90` seconds — felt a bit long for casual play.
 
 ## API
 
